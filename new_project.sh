@@ -18,7 +18,7 @@ echo "Enter remote GIT url: "
 
 read remote_url
 echo "remote url set to - $remote_url"
-
+echo ""
 
 git remote add origin "$remote_url"
 git branch -M main
